@@ -17,6 +17,19 @@
       float: left;
       width: 66.66%;
     }
+
+    &__medium-6 {
+      float: left;
+      width: 50%;
+    }
+  }
+
+  &--gutters-large {
+    margin-right: -100px;
+  }
+
+  &--gutters-large > div {
+    padding-right: 100px;
   }
 
   &__medium-4--large {
